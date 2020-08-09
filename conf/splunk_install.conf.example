@@ -1,0 +1,25 @@
+cluster_name="Cbjazz_Cluster"
+cluster_secret="idxcluster"
+license_server="localhost:28089"
+server_name_prefix=example
+master_dir=/data/master
+replication_factor="1"
+search_factor="1"
+# Master Management Default Port is 8089 
+master_management_port=8089
+# Appserver Default Port is 8065
+master_appserver_ports=8065
+# KV Store Default Port is 8191
+master_kv_store_port=8191
+# Web Default Port is 8000
+master_kv_store_port=8000
+
+indexer_dir=/data1,/data2,/data3,/data4
+management_port=18089,28089,38089,48089
+appserver_port=18065,28065,38065,48065
+kv_store_port=18191,28191,38191,48191
+listen_port=19197,29197,39197,49197
+replication_port=19100,29100,39100,49100
+
+
+
